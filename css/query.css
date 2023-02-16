@@ -1,0 +1,529 @@
+@media only screen and (max-width: 1250px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .nav-container {
+        max-width: 800px;
+    }
+
+    h2 {
+        font-size:30px;
+        margin: 0px 80px 0px 80px;
+    }
+    h2:before,
+    h2:after {
+        margin: 0px 60px 0px 60px;
+    }
+
+    .div-sect {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .div-anchor-sect {
+        padding-top: 150px;
+        margin-top: -80px;
+        margin-bottom: 100px;
+    }
+
+    .about-sect {
+        grid-template-columns: 450px auto;
+        column-gap: 40px;
+    }
+
+    .hero-headers {
+        max-width: 800px;
+    }
+
+    .clients-sect img {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .nav-container {
+        max-width: 740px;
+    }
+
+    h2 {
+        font-size:30px;
+        margin: 0px 60px 0px 60px;
+    }
+    h2:before,
+    h2:after {
+        margin: 0px 50px 0px 50px;
+    }
+
+    .about-sect {
+        grid-template-columns: 400px auto;
+        column-gap: 30px;
+    }
+
+    .hero-headers {
+        max-width: 740px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .nav-container {
+        max-width: 780px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    nav img {
+        position: relative;
+        top: 5px;
+        height: 70px;
+        cursor: pointer;
+    }
+
+    .nav-about {
+        margin: 20px 20px 20px 0px;
+    }
+
+    h2 {
+        font-size:25px;
+        margin: 0px 40px 0px 40px;
+    }
+    h2:before,
+    h2:after {
+        margin: 0px 30px 0px 30px;
+    }
+
+    .div-sect {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    /* HERO */
+    .hero-sect {
+        padding: 30px 0px 30px 0px;
+    }
+    
+    .hero-image {
+        margin: 100px 0px 100px 0px;
+    }
+    
+    .hero-image img {
+        width: 100%;
+        opacity: 0.4;
+    }
+    
+    .hero-headers {
+        max-width: 550px;
+        text-align: center;
+    }
+    
+    .hero-headers h3 {
+        text-align: center;
+    }
+    
+    .hero-headers h1 {
+        text-align: center;
+    }
+
+    /* ABOUT */
+    .about-sect {
+        padding: 20px 0px 0px 0px;
+        display: block;
+        align-items: center;
+    }
+    
+    .about-sect div {
+        text-align: center;
+    }
+    
+    .about-sect h4 {
+        text-align: center;
+    }
+    
+    .about-sect img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* WHY */
+    .why-sect {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .why-sect h4 {
+        text-align: center;
+    }
+
+    .why-sect img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    
+    .why-div-left {
+        display: block;
+        margin-bottom: 0;
+        padding: 20px 20px 0px 20px;
+        box-shadow: none;      
+    }
+
+    .why-div-right {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+        padding: 20px;
+        box-shadow: none;   
+        text-align: center;
+    }
+
+    .why-div-right img {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
+    /* SERVICES */
+    .services-sect {
+        padding: 20px 0px 0px 0px;
+        grid-auto-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    /* CLIENTS */
+    .clients-sect {
+        padding: 10px 0px 0px 0px;
+        grid-auto-columns: minmax(0, 1fr);
+        grid-auto-flow: column;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 30px;
+        row-gap: 10px;
+    }
+    
+    .clients-sect img {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        max-width: 450px;
+    }
+
+    h1 {
+        font-size:45px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size:24px;
+        margin: 0px 10px 0px 10px;
+    }
+    h2:before,
+    h2:after {
+        margin: 0px 30px 0px 30px;
+    }
+
+    h3 {
+        font-size:18px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    button {
+        width: 220px;
+        height: 40px;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .div-sect {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .div-anchor-sect {
+        padding-top: 150px;
+        margin-top: -80px;
+        margin-bottom: 60px;
+    }
+
+    /* NAV */   
+    .nav-container {
+        max-width: 600px;
+        padding: 0px 20px 5px 10px;
+    }
+
+    nav img {
+        height: 65px;
+    }
+        
+    nav a {
+        position: relative;
+        top: 5px;
+    }
+
+    .nav-contact {
+        border-radius: 50%;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: transparent;
+        padding: 5px;
+        margin: 0;
+        background-image: url('../img/cs_email.svg');
+        width: 55px;
+        height: 55px;
+    }
+    
+    .nav-about {
+        padding: 0;
+        margin: 20px 30px 0px 0px;
+    }
+
+    /* HERO */
+    .hero-sect {
+        height: 450px;
+        padding: 0;
+    }
+    
+    .hero-image {
+        float: none;
+        margin: 120px 0px 0px 0px;
+    }
+    
+    .hero-image img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        opacity: 0.4;
+    }
+    
+    .hero-headers {
+        max-width: 450px;
+        text-align: center;
+        top: 40%;
+    }
+
+    /* SERVICES */
+    .services-sect {
+        padding: 40px 10px 0px 10px;
+        grid-template-rows: auto auto auto;
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+
+    .services-sect div {
+        padding: 20px 10px 20px 10px;
+    }
+    
+    .services-sect img {
+        max-width: 120px;
+    }
+
+    .services-sect h4 {
+        margin-bottom: 8px;        
+    }
+
+    /* CLIENTS */
+    .clients-sect img {
+        max-width: 120px;
+    }
+} 
+
+@media only screen and (max-width:480px) {
+    .container {
+        max-width: 350px;
+    }
+
+    h1 {
+        font-size:35px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size:20px;
+        margin: 0;
+    }
+    h2:before,
+    h2:after {
+        margin: 0px 20px 0px 20px;
+    }
+
+    h3 {
+        font-size:16px;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size:15px;
+        margin: 0;
+        color: #2B5087;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    q {
+        font-size: 14px;
+    }
+
+    button {
+        border-radius: 50px;
+        width: 180px;
+        height: 40px;
+        font-size: medium;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .div-sect {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .div-anchor-sect {
+        padding-top: 120px;
+        margin-top: -80px;
+        margin-bottom: 40px;
+    }
+
+    /* NAV */   
+    .nav-container {
+        max-width: 480px;
+        padding: 0px 20px 5px 7px;
+    }
+
+    nav img {
+        height: 55px;
+    }
+    
+    .nav-about {
+        font-size: 16px;
+        margin: 20px 15px 0px 0px;
+    }
+
+    .nav-contact {
+        border-radius: 50%;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: transparent;
+        padding: 5px;
+        margin: 0;
+        background-image: url('../img/cs_email.svg');
+        width: 45px;
+        height: 45px;
+    }
+
+    /* HERO */
+    .hero-sect {
+        height: 350px;
+    }
+    
+    .hero-image {
+        margin: 100px 0px 0px 0px;
+    }
+    
+    .hero-headers {
+        max-width: 350px;
+        top: 37%;
+    }
+
+    /* ABOUT */
+    .about-sect {
+        padding: 20px 20px 0px 20px;
+    }
+
+    /* WHY */
+    .why-sect {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .why-sect img {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    
+    .why-div-left {
+        display: block;
+        margin-bottom: 0;
+        padding: 10px;
+        box-shadow: none;      
+    }
+
+    .why-div-right {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+        padding: 10px;
+        box-shadow: none;   
+        text-align: center;
+    }
+
+    .why-div-right img {
+        width: 65%;
+        margin-bottom: 20px;
+    }
+
+    /* SERVICES */
+    .services-sect {
+        padding: 20px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .services-sect div {
+        padding: 10px;
+    }
+
+    .services-sect img {
+        max-width: 100px;
+    }
+    
+    .services-sect h4 {
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* CLIENTS */
+    .clients-sect {
+        padding: 10px 10px 0px 10px;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+    
+    .clients-sect img {
+        max-width: 100px;
+    }
+
+    /* CONTACT */
+    .contact-sect h3 
+    {
+        font-size: 14px;
+    }
+
+    .email {
+        font-size: medium;
+        width: 250px;
+    }
+    
+    .send {
+        width: 270px;
+        font-size: medium;
+    }
+}
